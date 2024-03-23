@@ -1,0 +1,437 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/ErikEJ/EFCorePowerTools/master/samples/efcpt-schema.json",
+  "code-generation": {
+    "enable-on-configuring": false,
+    "generate-mermaid-diagram": false,
+    "merge-dacpacs": false,
+    "refresh-object-lists": true,
+    "remove-defaultsql-from-bool-properties": false,
+    "soft-delete-obsolete-files": true,
+    "t4-template-path": null,
+    "type": "all",
+    "use-alternate-stored-procedure-resultset-discovery": false,
+    "use-data-annotations": false,
+    "use-database-names": false,
+    "use-decimal-data-annotation-for-sproc-results": true,
+    "use-inflector": true,
+    "use-legacy-inflector": false,
+    "use-many-to-many-entity": false,
+    "use-nullable-reference-types": true,
+    "use-prefix-navigation-naming": false,
+    "use-t4": false
+  },
+  "file-layout": {
+    "output-dbcontext-path": null,
+    "output-path": "Models"
+  },
+  "names": {
+    "dbcontext-name": "VEC-Core-App-DBContext",
+    "dbcontext-namespace": null,
+    "model-namespace": null,
+    "root-namespace": "TestVCE"
+  },
+  "tables": [
+    {
+      "name": "public.Address"
+    },
+    {
+      "name": "public.AdministratorProfile"
+    },
+    {
+      "name": "public.Analysis"
+    },
+    {
+      "name": "public.ApplicationRole"
+    },
+    {
+      "name": "public.ApplicationUser"
+    },
+    {
+      "name": "public.ApplicationUser_RolePermission"
+    },
+    {
+      "name": "public.Audit"
+    },
+    {
+      "name": "public.AuditDataItemPersistent"
+    },
+    {
+      "name": "public.AuditedObjectWeakReference"
+    },
+    {
+      "name": "public.CertificateType"
+    },
+    {
+      "name": "public.Corporate"
+    },
+    {
+      "name": "public.Country"
+    },
+    {
+      "name": "public.Curriculum"
+    },
+    {
+      "name": "public.DashboardData"
+    },
+    {
+      "name": "public.DataImportHistory"
+    },
+    {
+      "name": "public.DefaultJobPostingSetup"
+    },
+    {
+      "name": "public.District"
+    },
+    {
+      "name": "public.EducationalQualification"
+    },
+    {
+      "name": "public.EmailConfiguration"
+    },
+    {
+      "name": "public.EmployerBusinessType"
+    },
+    {
+      "name": "public.EmployerFileAttachment"
+    },
+    {
+      "name": "public.EmployerMainBusinessType"
+    },
+    {
+      "name": "public.EmployerProfile"
+    },
+    {
+      "name": "public.EmployerProfileStatus"
+    },
+    {
+      "name": "public.EmployerProfileType"
+    },
+    {
+      "name": "public.EmployerSchoolContact"
+    },
+    {
+      "name": "public.EmployerSummary"
+    },
+    {
+      "name": "public.EmploymentCategory"
+    },
+    {
+      "name": "public.EmploymentStatus"
+    },
+    {
+      "name": "public.EntityStatus"
+    },
+    {
+      "name": "public.Event"
+    },
+    {
+      "name": "public.FileAttachment"
+    },
+    {
+      "name": "public.FileData"
+    },
+    {
+      "name": "public.Government"
+    },
+    {
+      "name": "public.GraduatedStudent"
+    },
+    {
+      "name": "public.GraduatedStudentJobTrackingReport"
+    },
+    {
+      "name": "public.GraduatedStudentJobTrackingReport_StudentDetail"
+    },
+    {
+      "name": "public.GraduatedStudentJobTrackingReportActivity"
+    },
+    {
+      "name": "public.GraduatedStudentJobTrackingReportMain"
+    },
+    {
+      "name": "public.HCategory"
+    },
+    {
+      "name": "public.IDGeneratorTable"
+    },
+    {
+      "name": "public.Industry"
+    },
+    {
+      "name": "public.IndustryAndMinorMatching"
+    },
+    {
+      "name": "public.Institute"
+    },
+    {
+      "name": "public.JobApplication"
+    },
+    {
+      "name": "public.JobPosition"
+    },
+    {
+      "name": "public.JobPositionMatching"
+    },
+    {
+      "name": "public.JobPosting"
+    },
+    {
+      "name": "public.JobSegment"
+    },
+    {
+      "name": "public.JobTrackingReportActivity"
+    },
+    {
+      "name": "public.KpiDefinition"
+    },
+    {
+      "name": "public.KpiHistoryItem"
+    },
+    {
+      "name": "public.KpiInstance"
+    },
+    {
+      "name": "public.KpiScorecard"
+    },
+    {
+      "name": "public.KpiScorecardScorecards_KpiInstanceIndicators"
+    },
+    {
+      "name": "public.LookingForJob"
+    },
+    {
+      "name": "public.Major"
+    },
+    {
+      "name": "public.MediaDataObject"
+    },
+    {
+      "name": "public.Minor"
+    },
+    {
+      "name": "public.ModelDifference"
+    },
+    {
+      "name": "public.ModelDifferenceAspect"
+    },
+    {
+      "name": "public.ModificationInfo"
+    },
+    {
+      "name": "public.ModuleInfo"
+    },
+    {
+      "name": "public.Nationality"
+    },
+    {
+      "name": "public.Note"
+    },
+    {
+      "name": "public.NotificationConfiguration"
+    },
+    {
+      "name": "public.NotificationSetup"
+    },
+    {
+      "name": "public.Organization"
+    },
+    {
+      "name": "public.OrganizationType"
+    },
+    {
+      "name": "public.Party"
+    },
+    {
+      "name": "public.PayFrequency"
+    },
+    {
+      "name": "public.PayRate"
+    },
+    {
+      "name": "public.PermissionPolicyActionPermissionObject"
+    },
+    {
+      "name": "public.PermissionPolicyMemberPermissionsObject"
+    },
+    {
+      "name": "public.PermissionPolicyNavigationPermissionsObject"
+    },
+    {
+      "name": "public.PermissionPolicyObjectPermissionsObject"
+    },
+    {
+      "name": "public.PermissionPolicyRole"
+    },
+    {
+      "name": "public.PermissionPolicyTypePermissionsObject"
+    },
+    {
+      "name": "public.PermissionPolicyUser"
+    },
+    {
+      "name": "public.PermissionPolicyUserUsers_PermissionPolicyRoleRoles"
+    },
+    {
+      "name": "public.Person"
+    },
+    {
+      "name": "public.PhoneNumber"
+    },
+    {
+      "name": "public.PhoneType"
+    },
+    {
+      "name": "public.PostLookingForJob"
+    },
+    {
+      "name": "public.PropertyBag"
+    },
+    {
+      "name": "public.PropertyBagDescriptor"
+    },
+    {
+      "name": "public.PropertyDescriptor"
+    },
+    {
+      "name": "public.PropertyDescriptorPropertyDescriptors_PropertyBagDescr_3EF9C1ED"
+    },
+    {
+      "name": "public.PropertyValue"
+    },
+    {
+      "name": "public.Province"
+    },
+    {
+      "name": "public.Religion"
+    },
+    {
+      "name": "public.ReportDataV2"
+    },
+    {
+      "name": "public.Resource"
+    },
+    {
+      "name": "public.ResourceResources_EventEvents"
+    },
+    {
+      "name": "public.RichTextMailMergeData"
+    },
+    {
+      "name": "public.SalaryRange"
+    },
+    {
+      "name": "public.School"
+    },
+    {
+      "name": "public.SchoolEmployee"
+    },
+    {
+      "name": "public.SchoolEmployeeGroupType"
+    },
+    {
+      "name": "public.SchoolEmployeeProfile"
+    },
+    {
+      "name": "public.SchoolEmployeeType"
+    },
+    {
+      "name": "public.SchoolGraduatedStudent"
+    },
+    {
+      "name": "public.ServerPrefix"
+    },
+    {
+      "name": "public.State"
+    },
+    {
+      "name": "public.Student"
+    },
+    {
+      "name": "public.Student_JobRecord"
+    },
+    {
+      "name": "public.Student_StudyRecord"
+    },
+    {
+      "name": "public.Student_VECEducationInformation"
+    },
+    {
+      "name": "public.StudentResume"
+    },
+    {
+      "name": "public.StudentReward"
+    },
+    {
+      "name": "public.SubjectType"
+    },
+    {
+      "name": "public.Tambon"
+    },
+    {
+      "name": "public.Task"
+    },
+    {
+      "name": "public.TitleName"
+    },
+    {
+      "name": "public.UserBookmark"
+    },
+    {
+      "name": "public.VerifyManager"
+    },
+    {
+      "name": "public.ViewCounter"
+    },
+    {
+      "name": "public.XPObjectType"
+    },
+    {
+      "name": "public.XpoInstanceKey"
+    },
+    {
+      "name": "public.XpoRunningWorkflowInstanceInfo"
+    },
+    {
+      "name": "public.XpoStartWorkflowRequest"
+    },
+    {
+      "name": "public.XpoState"
+    },
+    {
+      "name": "public.XpoStateAppearance"
+    },
+    {
+      "name": "public.XpoStateMachine"
+    },
+    {
+      "name": "public.XpoTrackingRecord"
+    },
+    {
+      "name": "public.XpoTransition"
+    },
+    {
+      "name": "public.XpoUserActivityVersion"
+    },
+    {
+      "name": "public.XpoWorkflowDefinition"
+    },
+    {
+      "name": "public.XpoWorkflowInstance"
+    },
+    {
+      "name": "public.XpoWorkflowInstanceControlCommandRequest"
+    },
+    {
+      "name": "public.XPWeakReference"
+    },
+    {
+      "name": "public.XtraReportData"
+    }
+  ],
+  "type-mappings": {
+    "use-DateOnly-TimeOnly": true,
+    "use-HierarchyId": false,
+    "use-NodaTime": false,
+    "use-spatial": false
+  }
+}
